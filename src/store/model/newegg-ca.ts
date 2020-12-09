@@ -1,4 +1,4 @@
-import {Store} from './store';
+import { Store } from './store';
 import fetch from 'node-fetch';
 
 export const NeweggCa: Store = {
@@ -251,30 +251,6 @@ export const NeweggCa: Store = {
 				'https://www.newegg.ca/evga-geforce-rtx-3090-24g-p5-3985-kr/p/N82E16814487525'
 		},
 		{
-			brand: 'msi',
-			itemNumber: '14-137-602',
-			model: 'ventus 2x',
-			series: '3070',
-			url:
-				'https://www.newegg.ca/msi-geforce-rtx-3070-rtx-3070-ventus-2x-oc/p/N82E16814137602'
-		},
-		{
-			brand: 'msi',
-			itemNumber: '14-137-601',
-			model: 'ventus 3x',
-			series: '3070',
-			url:
-				'https://www.newegg.ca/msi-geforce-rtx-3070-rtx-3070-ventus-3x-oc/p/N82E16814137601'
-		},
-		{
-			brand: 'msi',
-			itemNumber: '14-137-603',
-			model: 'gaming x trio',
-			series: '3070',
-			url:
-				'https://www.newegg.ca/msi-geforce-rtx-3070-rtx-3070-gaming-x-trio/p/N82E16814137603'
-		},
-		{
 			brand: 'asus',
 			itemNumber: '14-126-460',
 			model: 'dual',
@@ -291,12 +267,12 @@ export const NeweggCa: Store = {
 				'https://www.newegg.ca/asus-geforce-rtx-3070-dual-rtx3070-o8g/p/N82E16814126459'
 		},
 		{
-			brand: 'gigabyte',
-			itemNumber: '14-932-342',
-			model: 'gaming oc',
+			brand: 'asus',
+			itemNumber: '14-126-466',
+			model: 'ko',
 			series: '3070',
 			url:
-				'https://www.newegg.ca/gigabyte-geforce-rtx-3070-gv-n3070gaming-oc-8gd/p/N82E16814932342'
+				'https://www.newegg.ca/asus-geforce-rtx-3070-ko-rtx3070-o8g-gamin/p/N82E16814126466'
 		},
 		{
 			brand: 'asus',
@@ -305,54 +281,6 @@ export const NeweggCa: Store = {
 			series: '3070',
 			url:
 				'https://www.newegg.ca/asus-geforce-rtx-3070-rog-strix-rtx3070-o8g-gaming/p/N82E16814126458'
-		},
-		{
-			brand: 'zotac',
-			itemNumber: '14-500-501',
-			model: 'twin edge',
-			series: '3070',
-			url:
-				'https://www.newegg.ca/zotac-geforce-rtx-3070-zt-a30700e-10p/p/N82E16814500501'
-		},
-		{
-			brand: 'gigabyte',
-			itemNumber: '14-932-344',
-			model: 'eagle',
-			series: '3070',
-			url:
-				'https://www.newegg.ca/gigabyte-geforce-rtx-3070-gv-n3070eagle-8gd/p/N82E16814932344'
-		},
-		{
-			brand: 'evga',
-			itemNumber: '14-487-528',
-			model: 'xc3 black',
-			series: '3070',
-			url:
-				'https://www.newegg.ca/evga-geforce-rtx-3070-08g-p5-3751-kr/p/N82E16814487528'
-		},
-		{
-			brand: 'gigabyte',
-			itemNumber: '14-932-360',
-			model: 'vision oc',
-			series: '3070',
-			url:
-				'https://www.newegg.ca/gigabyte-geforce-rtx-3070-gv-n3070vision-oc-8gd/p/N82E16814932360'
-		},
-		{
-			brand: 'zotac',
-			itemNumber: '14-500-505',
-			model: 'twin edge oc',
-			series: '3070',
-			url:
-				'https://www.newegg.ca/zotac-geforce-rtx-3070-zt-a30700h-10p/p/N82E16814500505'
-		},
-		{
-			brand: 'pny',
-			itemNumber: '14-133-812',
-			model: 'uprising',
-			series: '3070',
-			url:
-				'https://www.newegg.ca/pny-geforce-rtx-3070-vcg30708dfmpb/p/N82E16814133812'
 		},
 		{
 			brand: 'asus',
@@ -371,20 +299,28 @@ export const NeweggCa: Store = {
 				'https://www.newegg.ca/evga-geforce-rtx-3070-08g-p5-3765-kr/p/N82E16814487531'
 		},
 		{
-			brand: 'gigabyte',
-			itemNumber: '14-932-359',
-			model: 'aorus',
+			brand: 'evga',
+			itemNumber: '14-487-532',
+			model: 'ftw3 ultra',
 			series: '3070',
 			url:
-				'https://www.newegg.ca/gigabyte-geforce-rtx-3070-gv-n3070aorus-m-8gd/p/N82E16814932359'
+				'https://www.newegg.ca/evga-geforce-rtx-3070-08g-p5-3767-kr/p/N82E16814487532'
 		},
 		{
-			brand: 'gigabyte',
-			itemNumber: '14-932-343',
-			model: 'eagle oc',
+			brand: 'evga',
+			itemNumber: '14-487-529',
+			model: 'xc3',
 			series: '3070',
 			url:
-				'https://www.newegg.ca/gigabyte-geforce-rtx-3070-gv-n3070eagle-oc-8gd/p/N82E16814932343'
+				'https://www.newegg.ca/evga-geforce-rtx-3070-08g-p5-3753-kr/p/N82E16814487529'
+		},
+		{
+			brand: 'evga',
+			itemNumber: '14-487-528',
+			model: 'xc3 black',
+			series: '3070',
+			url:
+				'https://www.newegg.ca/evga-geforce-rtx-3070-08g-p5-3751-kr/p/N82E16814487528'
 		},
 		{
 			brand: 'evga',
@@ -395,12 +331,76 @@ export const NeweggCa: Store = {
 				'https://www.newegg.ca/evga-geforce-rtx-3070-08g-p5-3755-kr/p/N82E16814487530'
 		},
 		{
-			brand: 'evga',
-			itemNumber: '14-487-532',
-			model: 'ftw3 ultra',
+			brand: 'gigabyte',
+			itemNumber: '14-932-359',
+			model: 'aorus',
 			series: '3070',
 			url:
-				'https://www.newegg.ca/evga-geforce-rtx-3070-08g-p5-3767-kr/p/N82E16814487532'
+				'https://www.newegg.ca/gigabyte-geforce-rtx-3070-gv-n3070aorus-m-8gd/p/N82E16814932359'
+		},
+		{
+			brand: 'gigabyte',
+			itemNumber: '14-932-344',
+			model: 'eagle',
+			series: '3070',
+			url:
+				'https://www.newegg.ca/gigabyte-geforce-rtx-3070-gv-n3070eagle-8gd/p/N82E16814932344'
+		},
+		{
+			brand: 'gigabyte',
+			itemNumber: '14-932-343',
+			model: 'eagle oc',
+			series: '3070',
+			url:
+				'https://www.newegg.ca/gigabyte-geforce-rtx-3070-gv-n3070eagle-oc-8gd/p/N82E16814932343'
+		},
+		{
+			brand: 'gigabyte',
+			itemNumber: '14-932-342',
+			model: 'gaming oc',
+			series: '3070',
+			url:
+				'https://www.newegg.ca/gigabyte-geforce-rtx-3070-gv-n3070gaming-oc-8gd/p/N82E16814932342'
+		},
+		{
+			brand: 'gigabyte',
+			itemNumber: '14-932-360',
+			model: 'vision oc',
+			series: '3070',
+			url:
+				'https://www.newegg.ca/gigabyte-geforce-rtx-3070-gv-n3070vision-oc-8gd/p/N82E16814932360'
+		},
+		{
+			brand: 'msi',
+			itemNumber: '14-137-603',
+			model: 'gaming x trio',
+			series: '3070',
+			url:
+				'https://www.newegg.ca/msi-geforce-rtx-3070-rtx-3070-gaming-x-trio/p/N82E16814137603'
+		},
+		{
+			brand: 'msi',
+			itemNumber: '14-137-602',
+			model: 'ventus 2x',
+			series: '3070',
+			url:
+				'https://www.newegg.ca/msi-geforce-rtx-3070-rtx-3070-ventus-2x-oc/p/N82E16814137602'
+		},
+		{
+			brand: 'msi',
+			itemNumber: '14-137-601',
+			model: 'ventus 3x oc',
+			series: '3070',
+			url:
+				'https://www.newegg.ca/msi-geforce-rtx-3070-rtx-3070-ventus-3x-oc/p/N82E16814137601'
+		},
+		{
+			brand: 'pny',
+			itemNumber: '14-133-812',
+			model: 'uprising',
+			series: '3070',
+			url:
+				'https://www.newegg.ca/pny-geforce-rtx-3070-vcg30708dfmpb/p/N82E16814133812'
 		},
 		{
 			brand: 'pny',
@@ -411,12 +411,20 @@ export const NeweggCa: Store = {
 				'https://www.newegg.ca/pny-geforce-rtx-3070-vcg30708tfxppb/p/N82E16814133811'
 		},
 		{
-			brand: 'evga',
-			itemNumber: '14-487-529',
-			model: 'xc3',
+			brand: 'zotac',
+			itemNumber: '14-500-501',
+			model: 'twin edge',
 			series: '3070',
 			url:
-				'https://www.newegg.ca/evga-geforce-rtx-3070-08g-p5-3753-kr/p/N82E16814487529'
+				'https://www.newegg.ca/zotac-geforce-rtx-3070-zt-a30700e-10p/p/N82E16814500501'
+		},
+		{
+			brand: 'zotac',
+			itemNumber: '14-500-505',
+			model: 'twin edge oc',
+			series: '3070',
+			url:
+				'https://www.newegg.ca/zotac-geforce-rtx-3070-zt-a30700h-10p/p/N82E16814500505'
 		},
 		{
 			brand: 'asus',

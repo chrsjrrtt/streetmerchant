@@ -1,4 +1,4 @@
-import {Store} from './store';
+import { Store } from './store';
 
 export const BestBuyCa: Store = {
 	labels: {
@@ -148,6 +148,13 @@ export const BestBuyCa: Store = {
 			series: '3070',
 			url:
 				'https://www.bestbuy.ca/en-ca/product/nvidia-geforce-rtx-3070-8gb-gddr6-video-card-only-at-best-buy/15078017?intl=nosplash'
+		},
+		{
+			brand: 'evga',
+			model: 'xc3 black',
+			series: '3070',
+			url:
+				'https://www.bestbuy.ca/en-ca/product/evga-geforce-rtx-3070-xc3-black-8gb-gddr6-video-card/15081879?intl=nosplash'
 		},
 		{
 			brand: 'sony',
